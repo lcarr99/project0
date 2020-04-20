@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+    $headingFamily : 'Manrope';
+    $headingWeight : 200;
+
+.text {
+    font-family: $headingFamily;
+    font-weight: $headingWeight;
+    color: white;
+}
+
+body{
+    background-color: skyblue;
+}
+
+#profile{
+    margin: {
+        left: 40%;
+        right: 50%;
+    }
+}
+
+table {
+    th, td{
+        @extend .text;
+    }
+}
+
+#about{
+
+    p{
+        font-size: 15px;
+    }
+
+    padding : {
+        right: 50px;
+        left: 50px;
+        top: 25px;
+        bottom: 25px;
+    }
+    
+    @extend .text;
+
+}
+
+#mainHeading{
+    
+    text: {
+        align: center;
+    }
+
+    @extend .text;
+
+    @media(min-width: 200px){
+        font: {
+            size: 30px;
+        }
+    }
+
+    @media(min-width: 768px){
+        font: {
+            size: 40px;
+        }
+    }
+
+    @media(min-width: 992px){
+        font: {
+        size: 50px;
+        }
+    }
+    
+}
+
+.centralHeading{
+    margin : {
+        top: 100px;
+    }
+}
+
+#profilePic{
+   
+    @media(min-width: 200px){
+        height: 200px;
+        width: 200px;
+        margin : {
+            top: 50px;
+        }
+    }
+
+    @media(min-width: 768px){
+        height: 300px;
+        width: 300px;
+        margin : {
+            top: 50px;
+        }
+    }
+
+    @media(min-width: 992px){
+        height: 400px;
+        width: 400px;
+        margin : {
+            top: 50px;
+        }
+    }
+ 
+}
+
+#profilePic:hover{
+    -webkit-filter: grayscale(30%); 
+    filter: grayscale(30%);
+}
