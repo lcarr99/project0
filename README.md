@@ -10,7 +10,7 @@ biography.html:- This is the page that has a mini write up about me. It has been
 
 Interests.html:- This is the page that is about some of my interests. I have included a table and an unordered list on this page and I have also taken advantage of bootstrap components in order to style the table
 
-projects.html:- In this page I have taken advantage of the column layout in bootstrap and i've used three columns. The description has been done in lorem ipsum again in order to save myself time.
+projects.html:- In this page I have taken advantage of the column layout in bootstrap and i've used three columns. The description has been done in lorem ipsum again in order to save myself time
 
 style.scss:- This is the scss file that I have used to style everything on the page. In this file I have many different methods of scss such as inheritance, nesting and variables in order to make my stylesheet much more clean and I have managed to save myself time in the process of doing this
 
