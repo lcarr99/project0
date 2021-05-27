@@ -1,83 +1,98 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
-.text,
-table th,
-table td,
-#about,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.navbar {
+    opacity: 0.75;
+}
+
+#home {
+    height: 100vh;
+    background-image: url('../assets/homeBackground.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 #mainHeading {
+    text-align: center;
     font-family: "Manrope";
     font-weight: 200;
     color: white;
 }
 
-#profile {
-    margin-left: 40%;
-    margin-right: 50%;
+.info {
+    color: white;
+    font-family: "Manrope";
+    font-weight: 200;
+}
+
+.hiddenToStart {
+    opacity: 0;
+}
+
+section {
+    height: 100%;
+    padding: 80px 90px;
 }
 
 #about {
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    background-color: darkblue;
 }
 
-#about p {
-    font-size: 15px;
+#experience {
+    background-color: whitesmoke;
 }
 
-#mainHeading {
-    text-align: center;
+#technologies {
+    background-color: white;
+}
+
+.technologiesImg {
+    height: 100px;
+    width: 100px;
+}
+
+.sectionHeading {
+    font-family: "Manrope";
+    font-weight: 200;
+}
+
+#certifications {
+    background-color: whitesmoke;
+}
+
+.certificationImg {
+    height: 200px;
+    width: 200px;
+}
+
+#membership {
+    background-color: white;
 }
 
 @media (min-width: 200px) {
     #mainHeading {
-        font-size: 30px;
+        font-size: 60px;
     }
 }
 
 @media (min-width: 768px) {
     #mainHeading {
-        font-size: 40px;
+        font-size: 80px;
     }
 }
 
 @media (min-width: 992px) {
     #mainHeading {
-        font-size: 50px;
+        font-size: 100px;
     }
-}
-
-.centralHeading {
-    margin-top: 100px;
-}
-
-@media (min-width: 200px) {
-    #profilePic {
-        height: 200px;
-        width: 200px;
-        margin-top: 50px;
-    }
-}
-
-@media (min-width: 768px) {
-    #profilePic {
-        height: 300px;
-        width: 300px;
-        margin-top: 50px;
-    }
-}
-
-@media (min-width: 992px) {
-    #profilePic {
-        height: 400px;
-        width: 400px;
-        margin-top: 50px;
-    }
-}
-
-#profilePic:hover {
-    -webkit-filter: grayscale(30%);
-    filter: grayscale(30%);
 }
 
 
