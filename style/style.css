@@ -33,10 +33,6 @@ a:hover {
     font-weight: 200;
 }
 
-.hiddenToStart {
-    opacity: 0;
-}
-
 section {
     height: 100%;
     padding: 80px 90px;
@@ -54,23 +50,8 @@ section {
     background-color: white;
 }
 
-.technologiesImg {
-    height: 100px;
-    width: 100px;
-}
-
-.sectionHeading {
-    font-family: "Manrope";
-    font-weight: 200;
-}
-
 #certifications {
     background-color: whitesmoke;
-}
-
-.certificationImg {
-    height: 200px;
-    width: 200px;
 }
 
 #membership {
@@ -81,17 +62,57 @@ section {
     #mainHeading {
         font-size: 60px;
     }
+    .technologiesImg {
+        height: 30px;
+        width: 30px;
+    }
+    .certificationImg {
+        height: 50px;
+        width: 50px;
+    }
+    .sectionHeading {
+        font-family: "Manrope";
+        font-weight: 200;
+        font-size: 30px;
+    }
+    .hiddenToStart {
+        opacity: 1;
+    }
 }
 
 @media (min-width: 768px) {
     #mainHeading {
         font-size: 80px;
     }
+    .technologiesImg {
+        height: 75px;
+        width: 75px;
+    }
+    .certificationImg {
+        height: 100px;
+        width: 100px;
+    }
+    .sectionHeading {
+        font-family: "Manrope";
+        font-weight: 200;
+        font-size: auto;
+    }
+    .hiddenToStart {
+        opacity: 0;
+    }
 }
 
 @media (min-width: 992px) {
     #mainHeading {
         font-size: 100px;
+    }
+    .technologiesImg {
+        height: 100px;
+        width: 100px;
+    }
+    .certificationImg {
+        height: 200px;
+        width: 200px;
     }
 }
 
